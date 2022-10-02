@@ -1,0 +1,16 @@
+#root {
+   background: url('https://i.stack.imgur.com/cGIFX.jpg') no-repeat;background-size: cover;font-family: sans-serif;
+}
+
+#text {
+   opacity: 1;
+   transition: opacity 0.3s;
+}
+
+#text.fadeout {
+   opacity: 0;
+}
+
+#text.fadein {
+   opacity: 1;
+}
