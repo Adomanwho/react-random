@@ -53,7 +53,7 @@ function Writing() {
          <br />
          <div className="container-fluid d-flex my-3 justify-content-between">
             <a id="tweet-quote" href="twitter.com/intent/tweet" target="_top"
-            className="btn btn-outline-primary"><i className="bi bi-twitter">   Tweet</i></a>
+            className="btn btn-outline-primary"><i className="bi bi-twitter">   tweet</i></a>
             <button className="btn btn-outline-light" id="new-quote" onClick={handleClick}>New Quote</button>
          </div>
       </>
