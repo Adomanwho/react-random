@@ -15,7 +15,7 @@ function Writing() {
    const [changer, setChanger] = useState([]);
 
    useEffect(()=>{
-      fetch('http://api.quotable.io/random')
+      fetch('https://api.quotable.io/random')
       .then(resolve => resolve.json())
       .then(data => {
          setQuoteApi(data.content);
